@@ -10,6 +10,7 @@ namespace ComandService.Controllers
         {
             
         }
+        
         [HttpPost]
         public ActionResult TestInboundConnection() {
             System.Console.WriteLine("--> inbound POST # Command Service");
